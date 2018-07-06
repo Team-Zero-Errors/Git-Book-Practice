@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>Example</title>
+      <title>Book</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <!-- Do not add `link` tags-->
@@ -12,6 +12,34 @@
       <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body>
-      <h1>Browser Template</h1>
+      <nav class="navbar navbar-dark bg-primary">
+        <div class="container">
+          <h1 id='menu-title'>The Book Manager</h1>
+        </div>
+      </nav>
+
+      <div class="row article settings1 view2">
+        <div class="row article settings2">
+          <div class='col-md-1 box'></div>
+          <div class='col-md-2 box'>
+            <button id='getbooks'>Get Books</button>
+          </div>
+          <div class='col-md-3 box'></div>
+          <div class='col-md-6 box'></div>
+          <div class='col-md-1 box'></div>
+        </div>
+        <hr>
+        <div class="row article settings3">
+          <div class='col-md-1 box'></div>
+          <div class='col-md-8 box'>
+            <ul id='bookElement'>
+            </ul>
+          </div>
+          <div class='col-md-3 box'></div>
+        </div>
+      </div>
+      <footer>
+        <p>Created by Team-Zero_Errors</p>
+      </footer>
     </body>
 </html>
